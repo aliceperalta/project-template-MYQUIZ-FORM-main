@@ -46,7 +46,7 @@ class Question {
    
 //corrija o sintaxe abaixo para exibir a mensagem de agradecimento e a posição 
       this.Message.html("Obrigado, Sua Resposta Foi Enviada");
-      this.message.position();
+      this.message.position(); 
 
       
 
