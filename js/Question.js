@@ -25,7 +25,7 @@ class Question {
     this.title.html("Meu Questionário");
     this.title.position(350, 0);
 //depure a sintaxe abaixo para exibir a pergunta
-     this.html("Pergunta:- O que é que está no meio do começo, no começo do meio, e no final do fim? " );
+     this.question.html("Pergunta:- O que é que está no meio do começo, no começo do meio, e no final do fim? " );
     
     this.question.position(150, 80);
     this.option1.html("1: A letra E" );
@@ -45,8 +45,8 @@ class Question {
       
    
 //corrija o sintaxe abaixo para exibir a mensagem de agradecimento e a posição 
-      this.Message.html("Obrigado, Sua Resposta Foi Enviada");
-      this.message.position(); 
+      this.message.html("Obrigado, Sua Resposta Foi Enviada");
+      this.message.position(350, 350); 
 
       
 
